@@ -22,16 +22,6 @@ function rtfToHTML (doc) {
 <html>
 <head>
 <meta charset="UTF-8">
-<style>
-body {
-  margin-left: ${doc.marginLeft / 20}pt;
-  margin-right: ${doc.marginRight / 20}pt;
-  margin-top: ${doc.marginTop / 20}pt;
-  margin-bottom: ${doc.marginBottom /20}pt;
-  font-size: ${defaults.fontSize / 2}pt;
-  text-indent: ${defaults.firstLineIndent / 20}pt;
-}
-</style>
 </head>
 <body>
 ${content}
